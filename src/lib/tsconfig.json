@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "inlineSources": true,
+    "skipDefaultLibCheck":true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "stripInternal": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+
+    "mapRoot": "",
+    "rootDir": ".",
+    "sourceMap": true,
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "lib": ["es6", "es2015", "dom"],
+    "outDir": "../../dist/ng2-form-validator",
+    "typeRoots": [
+      "../../node_modules/@types"
+    ],
+    "types": [
+      "rx/rx.all"
+    ]
+  },
+  "exclude": [
+    "**/*.spec.*",
+    "system-config-spec.ts",
+    "tsconfig-demo-app."
+  ],
+  "angularCompilerOptions": {
+    "genDir": "../../dist/aot/ng2-form-validator",
+    "debug": true
+  }
+}
