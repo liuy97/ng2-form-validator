@@ -42,7 +42,7 @@ export class AppModule { }
 ```
 add mapping in systemjs config 
 
-'ng2-form-validator': 'node_modules/ng2-form-validator/bundle/ng2-form-validator.js',
+'ng2-form-validator': 'node_modules/ng2-form-validator/bundles/form-validator.umd.js',
 
 ## validator directives
 

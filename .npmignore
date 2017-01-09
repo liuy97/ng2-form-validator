@@ -2,6 +2,9 @@
 node_modules/*
 npm-debug.log
 tools
+src
+node_modules
+dist
 release
 release.js
 karma*.js

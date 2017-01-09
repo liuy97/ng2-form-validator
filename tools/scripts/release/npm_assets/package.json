@@ -1,6 +1,6 @@
 {
   "name": "ng2-form-validator",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Angular 2 form validator",
   "main": "./bundles/form-validator.umd.js",
   "module": "./index.js",
