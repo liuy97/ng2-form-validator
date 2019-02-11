@@ -1,29 +1,29 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "es2015",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "sourceMap": true,
-    "noEmitHelpers": true,
-    "noImplicitAny": true,
-    "declaration": false,
-    "skipLibCheck": true,
-    "stripInternal": true,
-    "lib": [ "dom", "es6" ],
-    "types": [
-      "jasmine",
-      "node",
-      "webpack"
-    ]
-  },
-  "exclude": [
-    "node_modules",
-    "bundles",
-    "dist"
-  ],
-  "files": [
-    "./ng2-form-validator.ts"
-  ]
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "paths": {
+      "validator": [
+        "dist/validator"
+      ],
+      "validator/*": [
+        "dist/validator/*"
+      ]
+    }
+  }
 }
